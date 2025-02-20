@@ -1,0 +1,31 @@
+## Interface: 110007
+## Title: GoldCounter
+## Notes: Addon companion that help to monitor money incomes and spending
+## Notes-frFR: Un compagnon qui permet de mieux surveiller ses revenus et dépenses d'or
+## Notes-deDE: Addon-Begleiter, der bei der Überwachung von Geldeinkommen und -ausgaben hilft
+## Notes-esES: Compañero adicional para ayudar a controlar los ingresos y gastos de dinero
+## Notes-esMX: Compañero adicional para ayudar a controlar los ingresos y gastos de dinero
+## Notes-itIT: Compagno aggiuntivo per monitorare entrate e uscite
+## Notes-ptBR: Companheiro adicional para ajudar a monitorar receitas e despesas financeiras
+## Notes-ruRU: Аддон компаньон, помогающий контролировать денежные доходы и расходы
+## Author: Hexiatröhm
+## Version: 1.6.9
+## SavedVariables: My_GC_CharMoneyDB, My_GC_Profile
+## SavedVariablesPerCharacter: My_GC_Settings_Local, MySavedMoney, MySavedMoneyHistory
+## X-License: All Rights Reserved
+## IconAtlas: Banker
+
+## X-Curse-Project-ID: 443663
+## X-Curse-Packaged-Version: 1.6.9
+## X-Wago-ID: QNlqg46e
+
+
+Libs\LibStub\LibStub.lua
+Libs\!LibUIDropDownMenu\LibUIDropDownMenu\LibUIDropDownMenu.xml
+localization.lua
+LibsVars.lua
+GCLib.lua
+Options.lua
+GoldCounter.lua
+GoldCounter.xml
+Options.xml
